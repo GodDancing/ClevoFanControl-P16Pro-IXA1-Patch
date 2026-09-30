@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "global": {
+    "cpuCurve": [
+      { "temperature": 50, "duty": 28 },
+      { "temperature": 58, "duty": 30 },
+      { "temperature": 66, "duty": 33 },
+      { "temperature": 72, "duty": 38 },
+      { "temperature": 78, "duty": 48 },
+      { "temperature": 82, "duty": 62 },
+      { "temperature": 86, "duty": 82 },
+      { "temperature": 90, "duty": 100 }
+    ],
+    "gpuCurve": [
+      { "temperature": 50, "duty": 28 },
+      { "temperature": 58, "duty": 30 },
+      { "temperature": 66, "duty": 33 },
+      { "temperature": 72, "duty": 38 },
+      { "temperature": 78, "duty": 48 },
+      { "temperature": 82, "duty": 62 },
+      { "temperature": 86, "duty": 82 },
+      { "temperature": 90, "duty": 100 }
+    ],
+    "updateInterval": 2.0,
+    "transitionTemp": 3,
+    "forceTemp": 50,
+    "linear": true,
+    "takeOver": false,
+    "softControl": false
+  },
+  "fontSize": 10,
+  "historyPoints": 60,
+  "theme": "system",
+  "fontFamily": null,
+  "autoRun": false,
+  "closeToTray": true,
+  "autoSwitch": false,
+  "presets": []
+}

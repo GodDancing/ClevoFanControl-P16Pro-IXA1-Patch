@@ -1,0 +1,4 @@
+P16 Pro IXA1
+C:\ProgramData\ClevoFanControl\InsydeDCHU-FnKey.dll
+SHA256 75a47020d3a9d052e94dcb4e3ad61fb69f20177dd46e20c9a20883d92b83981b
+Sample { channels: [Reading { temperature: 76, duty: 42, rpm: Some(3673) }, Reading { temperature: 61, duty: 43, rpm: Some(3570) }], at: Instant { t: 4611690367.171801503s } }

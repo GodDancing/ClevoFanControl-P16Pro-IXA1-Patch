@@ -1,0 +1,32 @@
+# 二进制与厂商组件：绝不入库（见 NOTICE.md）
+*.exe
+*.dll
+*.sys
+*.zip
+*.msi
+
+# 运行产物
+*.log
+build/
+__pycache__/
+*.pyc
+
+# 本机配置：含 takeOver / autoRun 与个人机器状态，随二进制走
+ClevoFanControl.x64.json
+ClevoFanControl.json
+ClevoFanControl.presets.json
+
+# 工作区数据（不属于本仓库内容）
+.workbuddy/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+
+# 本地流水线审计报告（仅供作者本地留档，不入库）
+FORK_REPORT.md
+SANITIZATION_REPORT.md
+PACKAGE_REPORT.md
+*_REPORT.local.md
